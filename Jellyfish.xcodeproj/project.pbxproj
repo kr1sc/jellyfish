@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200D0E871B550E6F00C0C276 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200D0E861B550E6F00C0C276 /* Simulation.swift */; };
 		20473FC81B4BF385000091AC /* Jellyfish.h in Headers */ = {isa = PBXBuildFile; fileRef = 20473FC71B4BF385000091AC /* Jellyfish.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20473FCE1B4BF385000091AC /* Jellyfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20473FC21B4BF385000091AC /* Jellyfish.framework */; };
 		20473FD51B4BF385000091AC /* JellyfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20473FD41B4BF385000091AC /* JellyfishTests.swift */; };
+		20473FE11B4BF3FE000091AC /* Fenotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20473FE01B4BF3FE000091AC /* Fenotype.swift */; };
+		20473FE21B4BF41D000091AC /* Fenotype.swift in Headers */ = {isa = PBXBuildFile; fileRef = 20473FE01B4BF3FE000091AC /* Fenotype.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		2081D4A61B551A0E0081627D /* Simulation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 200D0E861B550E6F00C0C276 /* Simulation.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		2081D4A81B551CA20081627D /* Genotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2081D4A71B551CA20081627D /* Genotype.swift */; };
+		2081D4AA1B55220C0081627D /* FitnessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2081D4A91B55220C0081627D /* FitnessFunction.swift */; };
+		20CCA0DF1B6B79CE009BEC3A /* SelectionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCA0DE1B6B79CE009BEC3A /* SelectionMethod.swift */; };
+		20CCA0E11B6B7AE0009BEC3A /* RouletteSelectionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CCA0E01B6B7AE0009BEC3A /* RouletteSelectionMethod.swift */; };
+		20FA19411B56900C007BECD8 /* BitGenotype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA19401B56900C007BECD8 /* BitGenotype.swift */; };
+		20FA19421B5695BA007BECD8 /* Genotype.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2081D4A71B551CA20081627D /* Genotype.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FA19431B5695BE007BECD8 /* BitGenotype.swift in Headers */ = {isa = PBXBuildFile; fileRef = 20FA19401B56900C007BECD8 /* BitGenotype.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FA19441B5695C9007BECD8 /* FitnessFunction.swift in Headers */ = {isa = PBXBuildFile; fileRef = 2081D4A91B55220C0081627D /* FitnessFunction.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200D0E861B550E6F00C0C276 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 		20473FC21B4BF385000091AC /* Jellyfish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jellyfish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20473FC61B4BF385000091AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20473FC71B4BF385000091AC /* Jellyfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jellyfish.h; sourceTree = "<group>"; };
 		20473FCD1B4BF385000091AC /* JellyfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20473FD31B4BF385000091AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20473FD41B4BF385000091AC /* JellyfishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyfishTests.swift; sourceTree = "<group>"; };
+		20473FE01B4BF3FE000091AC /* Fenotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fenotype.swift; sourceTree = "<group>"; };
+		2081D4A71B551CA20081627D /* Genotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genotype.swift; sourceTree = "<group>"; };
+		2081D4A91B55220C0081627D /* FitnessFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessFunction.swift; sourceTree = "<group>"; };
+		20CCA0DE1B6B79CE009BEC3A /* SelectionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionMethod.swift; sourceTree = "<group>"; };
+		20CCA0E01B6B7AE0009BEC3A /* RouletteSelectionMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouletteSelectionMethod.swift; sourceTree = "<group>"; };
+		20FA19401B56900C007BECD8 /* BitGenotype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitGenotype.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				20473FC71B4BF385000091AC /* Jellyfish.h */,
+				20473FE01B4BF3FE000091AC /* Fenotype.swift */,
+				2081D4A91B55220C0081627D /* FitnessFunction.swift */,
+				2081D4A71B551CA20081627D /* Genotype.swift */,
+				20FA19401B56900C007BECD8 /* BitGenotype.swift */,
+				20CCA0DE1B6B79CE009BEC3A /* SelectionMethod.swift */,
+				20CCA0E01B6B7AE0009BEC3A /* RouletteSelectionMethod.swift */,
+				200D0E861B550E6F00C0C276 /* Simulation.swift */,
 				20473FC51B4BF385000091AC /* Supporting Files */,
 			);
 			path = Jellyfish;
@@ -110,6 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				20473FC81B4BF385000091AC /* Jellyfish.h in Headers */,
+				20473FE21B4BF41D000091AC /* Fenotype.swift in Headers */,
+				20FA19441B5695C9007BECD8 /* FitnessFunction.swift in Headers */,
+				20FA19421B5695BA007BECD8 /* Genotype.swift in Headers */,
+				20FA19431B5695BE007BECD8 /* BitGenotype.swift in Headers */,
+				2081D4A61B551A0E0081627D /* Simulation.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +189,7 @@
 		20473FB91B4BF385000091AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Krzysztof Cieplucha";
 				TargetAttributes = {
@@ -209,6 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FA19411B56900C007BECD8 /* BitGenotype.swift in Sources */,
+				200D0E871B550E6F00C0C276 /* Simulation.swift in Sources */,
+				2081D4A81B551CA20081627D /* Genotype.swift in Sources */,
+				20CCA0E11B6B7AE0009BEC3A /* RouletteSelectionMethod.swift in Sources */,
+				2081D4AA1B55220C0081627D /* FitnessFunction.swift in Sources */,
+				20473FE11B4BF3FE000091AC /* Fenotype.swift in Sources */,
+				20CCA0DF1B6B79CE009BEC3A /* SelectionMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +362,7 @@
 		20473FD91B4BF385000091AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +372,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		20473FDA1B4BF385000091AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -399,6 +441,7 @@
 				20473FDA1B4BF385000091AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20473FDB1B4BF385000091AC /* Build configuration list for PBXNativeTarget "JellyfishTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +450,7 @@
 				20473FDD1B4BF385000091AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

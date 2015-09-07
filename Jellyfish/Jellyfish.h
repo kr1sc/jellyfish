@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Krzysztof Cieplucha. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Jellyfish.
 FOUNDATION_EXPORT double JellyfishVersionNumber;
